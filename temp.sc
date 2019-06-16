@@ -6,6 +6,7 @@ class Number {
   def get(): Int = 2
 }
 
+
 case class Sample @Inject()(number: Number) {
   def double() = number * 2
 }
